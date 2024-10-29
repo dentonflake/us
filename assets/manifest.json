@@ -1,0 +1,8 @@
+{
+  "name": "Denton & Gracie Flake",
+  "short_name": "The Flakes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "rgba(255, 255, 255, 1)",
+  "theme_color": "rgba(255, 255, 255, 1)"
+}
