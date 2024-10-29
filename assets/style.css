@@ -14,7 +14,7 @@
 }
 
 .grid-item {
-    background-color: rgba(97, 142, 204);
+    background-color: rgb(94, 149, 204);
     border-radius: 10px;
     box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
 
@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .grid-item:hover {
@@ -31,7 +32,9 @@
 }
 
 body {
-    background-image: url('./images/wallpaper.jpg.avif');
+    background-color: rgb(207, 211, 214);
+
+    background-image: url('./images/background.PNG');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -58,9 +61,11 @@ a {
     grid-template-columns: 1fr;
 }
 
-#banner {
-    padding: 0;
-    overflow: hidden;
+#title {
+    background-color: rgba(255, 255, 255, 1);
+
+    display: flex;
+    flex-direction: column;
 }
 
 #banner img {
@@ -76,14 +81,6 @@ a {
 #recipies {}
 
 @media only screen and (max-width: 500px) {
-    body {
-        background-image: url('./images/background.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: center;
-    }
-
     main {
         padding: 20px;
     }
